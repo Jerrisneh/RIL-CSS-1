@@ -1,0 +1,40 @@
+
+.parent{
+    background-color: white;
+    padding: 30px;
+}
+.form-wrap{
+    
+    background-color: #ffa500;
+    width: 300px;
+    margin: 30px auto;
+    padding: 30px;
+    border: 2px solid black;
+}
+label{
+    display: block;
+    margin: 15px 0;
+}
+input{
+    width: 100%;
+    height: auto;
+    padding: 15px 0;
+    /* margin: 10px 0; */
+    border: none;
+    outline: none;
+}
+button{
+    margin-top: 15px;
+    height: auto;
+    width: 100%;
+    border: none;
+    padding: 10px 0;
+    font-size: 20px;
+    
+}
+
+::placeholder{
+    color: black;
+    padding: 0 5px;
+
+}
